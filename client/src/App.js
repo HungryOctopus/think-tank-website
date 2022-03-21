@@ -1,23 +1,25 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Homepage from './Homepage';
+import Projects from './components/Projects';
+import About from './components/About';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-    
-     {/* <Router> */}
+      <Router>
         <Navbar />
-        {/* <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/sensors" component={Focus} />
+        <Homepage />
+        {/* <Routes>
+          <Route path="/" exact component={Homepage} />
           <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />
-        </Switch> */}
+        </Routes> */}
         <Footer />
-      {/* </Router>  */}
+      </Router>
     </>
   );
 }
