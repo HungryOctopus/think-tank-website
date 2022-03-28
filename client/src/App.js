@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Homepage from './Homepage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
@@ -20,7 +20,6 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <p className="text-blue-500 text-lg"> Tailwind test </p>
         <Homepage />
         {/* <Routes>
           <Route path="/" exact component={Homepage} />

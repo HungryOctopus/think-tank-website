@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
+import Hero from './components/Hero';
 import Focus from './components/Focus';
 import Projects from './components/Projects';
 import About from './components/About';
@@ -7,8 +7,7 @@ import About from './components/About';
 function Homepage() {
   return (
     <>
-      <div>Homepage</div>
-      <Header />
+      <Hero />
       <Focus />
       <Projects />
       <About />
