@@ -4,7 +4,7 @@ function Focus() {
   return (
     <>
       <div className="focus">
-        <div>
+        <div data-aos="flip-up">
           <img src={focus} alt="focus-waterfall" />
         </div>
         <div className="focus-right">
