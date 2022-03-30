@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import focus from './../images/focus.jpg';
+import focus from './img/focus.jpg';
+import './Focus.css';
 
 function Focus() {
   return (
