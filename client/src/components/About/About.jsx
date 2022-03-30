@@ -8,7 +8,7 @@ function About() {
       <div className="bg-sblue">
         <div className="about-text">
           <div className="flex flex-row items-center p-3">
-            <div>
+            <div className="my-5">
               <h3>Who we are</h3>
               {/* <img src={sensor} alt="sensor" min-width="30px" /> */}
               <p>

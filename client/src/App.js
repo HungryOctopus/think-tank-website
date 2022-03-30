@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Homepage from './Homepage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Footer from './components/Footer';
+import Footer from './footer/Footer';
 
 function App() {
   // //const [offsetY, setoffsetY] = useState(0); // const of the length of the page
