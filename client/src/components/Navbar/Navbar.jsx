@@ -11,7 +11,7 @@ function Navbar() {
   const coffee = <FontAwesomeIcon icon={faCoffee} />;
   return (
     <>
-      <nav className="sticky top-0">
+      <nav className="sticky top-0 shadow">
         <div className="navbar-container flex flex-row">
           <div className="navbar-logo basis-1/4 content-center p-3">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
