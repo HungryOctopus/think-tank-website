@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     colors: {
       sblue: '#2d74b1',
-      silver: '#a1a1aa'
+      silver: '#a1a1aa',
+      white: '#ffffff'
     },
     extend: {}
   },

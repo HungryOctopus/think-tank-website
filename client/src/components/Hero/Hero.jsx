@@ -7,7 +7,7 @@ function Hero() {
     <div className="hero-container">
       <div className="claim py-4">
         {/* <img src={industryPic} alt="industry" /> */}
-        <h1 className="text-7xl text-silver">Engineering the future</h1>
+        <h1 className="text-7xl text-white">Engineering the future</h1>
         {/* Gradient on text? */}
         <h1 className="text-7xl text-sblue">together</h1>
       </div>
