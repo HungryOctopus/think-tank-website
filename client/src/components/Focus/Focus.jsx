@@ -4,12 +4,11 @@ import './Focus.css';
 
 function Focus() {
   return (
-    <>
-      <div className="focus">
-        <div>
-          <img src={focus} alt="focus-waterfall" />
-        </div>
-        <div className="focus-right">
+    <div className="focus">
+      <div className="focus-container flex flex-row justify-around p-3">
+        <img src={focus} alt="focus-waterfall" className="p-5 m-5" />
+
+        <div className="focus-right flex flex-col justify-top">
           <div className="focus-text">
             <h1>Artificial intelligence and deep learning for sensors</h1>
             <p>
@@ -22,7 +21,7 @@ function Focus() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

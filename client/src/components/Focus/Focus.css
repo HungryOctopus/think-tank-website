@@ -5,19 +5,12 @@
 .focus {
   background-color: var(--s-blue);
   color: var(--clr-white);
-  display: flex;
-}
-.focus-right {
-  display: flex;
-  flex-direction: column;
 }
 
 .focus h1 {
   font-size: 2.5rem;
   font-weight: 400;
-  max-width: 67%;
-  text-align: left;
-  padding: 10px;
+  max-width: 80%;
 }
 
 .focus p {
@@ -25,19 +18,12 @@
   font-size: 1.3rem;
   font-weight: 300;
   max-width: 60%;
-  text-align: left;
-  margin-left: 50px;
 }
 
-.focus img {
-  display: flex;
-  padding: 10px;
-  margin-left: 30px;
-}
-
-.focus-text {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin-left: 30px;
+@media screen and (max-width: 1025px) {
+  .focus-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

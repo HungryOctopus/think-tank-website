@@ -12,7 +12,9 @@ function Navbar() {
     <nav className="sticky top-0 shadow">
       <div className="navbar-container flex flex-row justify-between">
         <div className="nav-header">
+        <Link to='/'>
           <img src={logo} alt="think tank logo white" />
+          </Link>
         </div>
 
         <div className="navbar-menu flex justify-end items-center px-3">
