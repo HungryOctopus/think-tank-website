@@ -27,7 +27,7 @@
   max-height: 500px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 800px) {
   .focus-container {
     display: flex;
     flex-direction: column;
