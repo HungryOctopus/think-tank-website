@@ -19,18 +19,21 @@ Global Styles
   font-size: 3rem;
   text-align: end;
   color: var(--s-blue);
+  margin-right: 2rem;
 }
 .projects-container h2 {
   font-size: 5rem;
   line-height: 3rem;
   text-align: end;
   color: var(--s-blue);
+  margin-right: 2rem;
 }
 
 .projects-container h3 {
   font-size: 1rem;
   text-align: end;
   color: grey;
+  margin-right: 2rem;
 }
 
 .projects-container h4 {

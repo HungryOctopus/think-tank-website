@@ -6,9 +6,9 @@ function Focus() {
   return (
     <div className="focus">
       <div className="focus-container flex flex-row justify-around p-3">
-        <img src={focus} alt="focus-waterfall" className="p-5 m-5" />
+        <img src={focus} alt="focus-waterfall" className="p-8 m-5" />
 
-        <div className="focus-right flex flex-col justify-top">
+        <div className="focus-right flex flex-col justify-center">
           <div className="focus-text">
             <h1>Artificial intelligence and deep learning for sensors</h1>
             <p>

@@ -12,8 +12,8 @@ function Navbar() {
     <nav className="sticky top-0 shadow">
       <div className="navbar-container flex flex-row justify-between">
         <div className="nav-header">
-        <Link to='/'>
-          <img src={logo} alt="think tank logo white" />
+          <Link to="/">
+            <img src={logo} alt="think tank logo white" />
           </Link>
         </div>
 
@@ -22,7 +22,7 @@ function Navbar() {
             <h3>Projects</h3>
           </Link>
           <Link to="/about" className="px-3" onClick={closeMobileMenu}>
-            <h3>About us</h3>
+            <h3>About</h3>
           </Link>
           <div className="language-selection px-5">
             <h4>EN</h4>

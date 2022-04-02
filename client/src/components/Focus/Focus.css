@@ -8,22 +8,28 @@
 }
 
 .focus h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 400;
-  max-width: 80%;
+  max-width: 70%;
+  line-height: 3rem;
+  padding: 1rem;
 }
 
 .focus p {
   color: var(--clr-white);
   font-size: 1.3rem;
   font-weight: 300;
-  max-width: 60%;
+  max-width: 50%;
+  margin-left: 4rem;
+}
+
+.focus img {
+  max-height: 500px;
 }
 
 @media screen and (max-width: 1025px) {
   .focus-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 }
