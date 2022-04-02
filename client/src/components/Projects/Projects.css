@@ -18,22 +18,23 @@ Global Styles
 .projects-container h1 {
   font-size: 3rem;
   text-align: end;
-  color: var(--s-blue)
+  color: var(--s-blue);
 }
 .projects-container h2 {
   font-size: 5rem;
   line-height: 3rem;
   text-align: end;
-  color: var(--s-blue)
+  color: var(--s-blue);
 }
 
 .projects-container h3 {
-  font-size: 1 rem;
+  font-size: 1rem;
   text-align: end;
+  color: grey;
 }
 
 .projects-container h4 {
-  font-size: 1 rem;
+  font-size: 1.3rem;
   text-align: center;
   text-transform: uppercase;
   color: var(--s-blue);

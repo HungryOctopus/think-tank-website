@@ -20,29 +20,33 @@ function Projects() {
           <div className="project-icons align-center ">
             <div className="p-3 flex flex-wrap justify-around">
               <div className="flex flex-col align-center m-5">
-                <h4 className="p-5 align-center ">Concept sensors</h4>
-                <img src={sensor} alt="sensor" min-width="30px" />
-              </div>
-              <div className="flex flex-col align-center m-5">
-                <h4 className="p-5 align-center">Deep learning</h4>
-                <img src={deepLearning} alt="sensor" min-width="30px" />
-              </div>
-              <div className="flex flex-col align-center m-5">
                 <h4 className="p-5">Virtual reality</h4>
                 <img src={virtualReality} alt="sensor" min-width="30px" />
               </div>
 
               <div className="flex flex-col align-center m-5">
-                <h4 className="p-5">Robotic</h4>
-                <img src={robotic} alt="sensor" min-width="30px" />
+                <h4 className="p-5">Laser technologies</h4>
+                <img src={laser} alt="sensor" min-width="30px" />
               </div>
+
+              <div className="flex flex-col align-center m-5">
+                <h4 className="p-5 align-center">Deep learning</h4>
+                <img src={deepLearning} alt="sensor" min-width="30px" />
+              </div>
+
+              <div className="flex flex-col align-center m-5">
+                <h4 className="p-5 align-center ">Concept sensors</h4>
+                <img src={sensor} alt="sensor" min-width="30px" />
+              </div>
+
               <div className="flex flex-col align-center m-5">
                 <h4 className="p-5">Green sustainability</h4>
                 <img src={sustainability} alt="sensor" min-width="30px" />
               </div>
+
               <div className="flex flex-col align-center m-5">
-                <h4 className="p-5">Laser technologies</h4>
-                <img src={laser} alt="sensor" min-width="30px" />
+                <h4 className="p-5">Robotic</h4>
+                <img src={robotic} alt="sensor" min-width="30px" />
               </div>
             </div>
           </div>

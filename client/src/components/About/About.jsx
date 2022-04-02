@@ -7,7 +7,7 @@ function About() {
     <section className="about-container">
       <div className="bg-sblue">
         <div className="about-text">
-          <div className="flex flex-row items-center p-3">
+          <div className="about-paragraph flex items-start p-3">
             <div className="my-5">
               <h3>Who we are</h3>
               {/* <img src={sensor} alt="sensor" min-width="30px" /> */}
@@ -22,8 +22,8 @@ function About() {
                 Erat nam at lectus urna duis.
               </p>
             </div>
-            <div className="self-center">
-              <h3 className="self-center">Our mission</h3>
+            <div className="my-5">
+              <h3>Our mission</h3>
               {/* <img src={deepLearning} alt="sensor" min-width="30px" /> */}
               <p>
                 Risus nec feugiat in fermentum posuere urna nec tincidunt
@@ -36,7 +36,7 @@ function About() {
                 faucibus purus in massa tempor.
               </p>
             </div>
-            <div className="">
+            <div className="my-5">
               <h3>Our team</h3>
               {/* <img src={virtualReality} alt="sensor" min-width="30px" /> */}
               <p>

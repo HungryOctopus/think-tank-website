@@ -15,7 +15,7 @@ function Navbar() {
           <img src={logo} alt="think tank logo white" />
         </div>
 
-<div className="navbar-menu flex justify-end items-center px-3">
+        <div className="navbar-menu flex justify-end items-center px-3">
           <Link to="/projects" className="px-3" onClick={closeMobileMenu}>
             <h3>Projects</h3>
           </Link>
@@ -23,11 +23,9 @@ function Navbar() {
             <h3>About us</h3>
           </Link>
           <div className="language-selection px-5">
-            <h3>EN</h3>
+            <h4>EN</h4>
           </div>
         </div>
-
-        
       </div>
     </nav>
   );
