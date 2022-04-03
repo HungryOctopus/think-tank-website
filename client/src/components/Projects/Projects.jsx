@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Projects.css';
 import sensor from './icons/sensor-icon.png';
 import deepLearning from './icons/deep-learning-icon.png';
@@ -18,7 +18,8 @@ function Projects() {
             <h2>our projects</h2>
           </div>
           <div className="project-icons align-center ">
-            <div className="p-3 flex flex-wrap justify-around">
+            {/* first row with max 3 icons */}
+            <div className="icon-row p-3 flex flex-wrap justify-around">
               <div className="flex flex-col align-center m-5">
                 <h4 className="p-5">Virtual reality</h4>
                 <img src={virtualReality} alt="sensor" min-width="30px" />
@@ -33,7 +34,10 @@ function Projects() {
                 <h4 className="p-5 align-center">Deep learning</h4>
                 <img src={deepLearning} alt="sensor" min-width="30px" />
               </div>
+            </div>
 
+            {/* second row with max 3 icons */}
+            <div className="icon-row p-3 mb-8 flex flex-wrap justify-around">
               <div className="flex flex-col align-center m-5">
                 <h4 className="p-5 align-center ">Concept sensors</h4>
                 <img src={sensor} alt="sensor" min-width="30px" />

@@ -16,13 +16,13 @@ Global Styles
 */
 
 .projects-container h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: end;
   color: var(--s-blue);
   margin-right: 2rem;
 }
 .projects-container h2 {
-  font-size: 5rem;
+  font-size: 7rem;
   line-height: 3rem;
   text-align: end;
   color: var(--s-blue);
@@ -30,14 +30,15 @@ Global Styles
 }
 
 .projects-container h3 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: end;
   color: grey;
   margin-right: 2rem;
 }
 
 .projects-container h4 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  margin-bottom: 5%;
   text-align: center;
   text-transform: uppercase;
   color: var(--s-blue);
@@ -46,4 +47,13 @@ Global Styles
 .projects-container img {
   align-content: center;
   align-self: center;
+}
+
+@media screen and (max-width: 870px) {
+  .icon-row {
+    flex-direction: column;
+  }
+  .projects-container h4 {
+    margin-bottom: 0;
+  }
 }
