@@ -12,8 +12,8 @@ import {
 function Footer() {
   return (
     <footer className="footer">
-      <div className="flex flex-row p-3">
-        <div className="contact basis-1/2">
+      <div className="footer-container flex flex-row justify-between p-8">
+        <div className="contact">
           <ul>
             <li>
               <h4>CONTACT</h4>
@@ -24,9 +24,22 @@ function Footer() {
             <li>79100 Freiburg im Breisgau</li>
           </ul>
         </div>
+
+        <div className="social-media">
+          <h4 className="ml-3">FOLLOW US</h4>
+          <div className="social flex flex-row">
+            <FaLinkedin />
+            <FaTwitter />
+            <FaInstagram />
+            <FaXing />
+            <FaYoutube />
+          </div>
+        </div>
+
         <div className="newsletter">
           <h4>NEWSLETTER</h4>
           <input
+            className="email flex flex-col p-2 placeholder:text-black placeholder:text-slate-400 focus:border-sblue-500"
             aria-label="Your email address"
             name="email_address"
             placeholder="Your email address"
@@ -35,25 +48,15 @@ function Footer() {
             // onChange={handleEmailChange}
             // value={email}
           />
-          <button>
-            <h4 className="pl-2">SUBSCRIBE</h4>
+          <button className="bg-sblue text-white rounded-md p-2 my-2">
+            SUBSCRIBE
           </button>
         </div>
       </div>
-      <div className="social-media p-3">
-        <h4>FOLLOW US</h4>
-        <div className="social flex flex-row">
-          <FaTwitter />
-          <FaLinkedin />
-          <FaInstagram />
-          <FaXing />
-          <FaYoutube />
-        </div>
-        {/* here social media icons */}
-      </div>
+
       <div className="bottom flex flex-row p-3">
         <div className="basis-1/4 content-center">
-          <h5> © 2022</h5>
+          <h5> ©2022</h5>
         </div>
         <div className="basis-3/4 flex justify-end items-center px-3">
           <Link to="/">
