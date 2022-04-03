@@ -16,8 +16,28 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+}
+
+.hero-container h1 {
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 5rem;
+  text-align: start;
+  margin-left: 3rem;
+}
+
+.hero-container h2 {
+  font-weight: 400;
+  font-size: 7rem;
+  line-height: 5rem;
+  text-align: start;
+  margin-left: 3rem;
+}
+
+.claim {
+  margin-bottom: 15%;
 }
