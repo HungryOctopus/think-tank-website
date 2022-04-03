@@ -41,3 +41,13 @@
 .claim {
   margin-bottom: 15%;
 }
+
+@media screen and (max-width: 560px) {
+  .hero-container h1 {
+    font-size: 3rem;
+    line-height: normal;
+  }
+  .hero-container h2 {
+    font-size: 5rem;
+  }
+}

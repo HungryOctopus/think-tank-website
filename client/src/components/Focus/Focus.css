@@ -41,6 +41,12 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .focus p {
+    display: none;
+  }
+}
+
 .focus-container {
   background: url('./img/focus.jpg') center center/cover no-repeat;
   height: 100vh;
