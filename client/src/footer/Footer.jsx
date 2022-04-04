@@ -63,7 +63,7 @@ function Footer() {
             <h5 className="px-3"> IMPRESSUM </h5>
           </Link>
           <Link to="/">
-            <h5 className="px-3"> DATENSCHUTZERKLÄRUNG </h5>
+            <h5 className="px-3"> DATENSCHUTZ</h5>
           </Link>
         </div>
       </div>
