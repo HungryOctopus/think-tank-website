@@ -1,7 +1,7 @@
 # THINK TANK WEBSITE
 
 ## Description:
-Single page app developed with React
+Single page app developed with ReactJS
 
 ### CREDITS ###
 
