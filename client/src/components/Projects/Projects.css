@@ -74,3 +74,22 @@ Global Styles
     line-height: 1rem;
   }
 }
+
+@media screen and (min-width: 1100px) {
+  .projects-title {
+    margin: 3% 0 5% 0%;
+  }
+
+  .projects-title h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .projects-title h2 {
+    font-size: 7rem;
+    text-align: center;
+  }
+  .projects-container h3 {
+    display: none;
+  }
+}

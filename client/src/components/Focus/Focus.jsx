@@ -15,7 +15,7 @@ function Focus() {
             </p>
           </div>
           <div>
-            <button className="btn">SEE DEMO</button>
+            <button className="btn">DEMO</button>
           </div>
         </div>
       </div>

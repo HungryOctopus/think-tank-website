@@ -1,33 +1,25 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Navbar from './components/Navbar/Navbar';
-import Homepage from './Homepage';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Hero from './components/Hero/Hero';
+import Projects from './components/Projects/Projects';
+import Focus from './components/Focus/Focus.jsx';
+import About from './components/About/About';
+import Homepage from './views/Homepage';
+import { Routes, Route } from 'react-router-dom';
 import './index.css';
 import Footer from './footer/Footer';
+import ProjectsFocus from './views/ProjectsFocus';
 
 function App() {
-  // //const [offsetY, setoffsetY] = useState(0); // const of the length of the page
-
-  // const handleScroll = () => setoffsetY(window.pageYOffset);
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => window.removeEventListener('scroll', handleScroll);
-  // }, []);
-
   return (
     <>
-      <Router>
-        <Navbar />
-        <Homepage />
-        {/* <Routes>
-          <Route path="/" exact component={Homepage} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/about" component={About} />
-        </Routes> */}
-        <Footer />
-      </Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/projects" element={<ProjectsFocus />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
     </>
   );
 }

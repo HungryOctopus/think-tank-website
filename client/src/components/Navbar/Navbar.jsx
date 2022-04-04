@@ -1,13 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from './logo-thinktank-white.png';
 
 function Navbar() {
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
   return (
     <nav className="sticky top-0 shadow">
       <div className="navbar-container flex flex-row justify-between">
@@ -18,14 +14,14 @@ function Navbar() {
         </div>
 
         <div className="navbar-menu flex justify-end items-center px-3">
-          <Link to="/projects" className="px-3" onClick={closeMobileMenu}>
+          <Link to="/projects" className="px-3">
             <h3>Projects</h3>
           </Link>
-          <Link to="/about" className="px-3" onClick={closeMobileMenu}>
+          <Link to="/about" className="px-3">
             <h3>About</h3>
           </Link>
           <div className="language-selection px-5">
-            <h4>EN</h4>
+            <h3 className="bg-white text-sblue px-1">EN</h3>
           </div>
         </div>
       </div>
