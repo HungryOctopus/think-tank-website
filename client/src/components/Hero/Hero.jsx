@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Hero.css';
 
 function Hero() {
@@ -6,7 +6,6 @@ function Hero() {
     <div className="hero-container">
       <div className="claim py-4">
         <h1 className="text-white">Engineering the future</h1>
-        {/* Gradient on text? */}
         <h2 className="text-sblue">together</h2>
       </div>
     </div>

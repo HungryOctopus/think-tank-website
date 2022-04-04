@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import focus from './img/focus.jpg';
+import React from 'react';
 import './Focus.css';
 
 function Focus() {

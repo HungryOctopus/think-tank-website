@@ -18,6 +18,10 @@
   padding: 1rem;
 }
 
+.about-paragraph {
+  margin: 15% 5% 10 5%;
+}
+
 @media screen and (max-width: 1300px) {
   .about-paragraph {
     display: flex;
@@ -25,8 +29,4 @@
     margin: 10% 5% 10 5%;
     padding: 10% 0 10% 0;
   }
-}
-
-.about-paragraph {
-  margin: 15% 5% 10 5%;
 }

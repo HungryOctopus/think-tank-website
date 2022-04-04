@@ -1,8 +1,5 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import Projects from './components/Projects/Projects';
-import Focus from './components/Focus/Focus.jsx';
 import About from './components/About/About';
 import Homepage from './views/Homepage';
 import { Routes, Route } from 'react-router-dom';

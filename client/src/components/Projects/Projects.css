@@ -60,7 +60,7 @@ Global Styles
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 650px) {
   .projects-container h1 {
     font-size: 3.5rem;
     line-height: 3rem;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './About.css';
 import team from './team-thinktank.jpeg';
 
@@ -10,7 +10,6 @@ function About() {
           <div className="about-paragraph flex items-start p-3">
             <div className="my-5">
               <h3>Who we are</h3>
-              {/* <img src={sensor} alt="sensor" min-width="30px" /> */}
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -24,7 +23,6 @@ function About() {
             </div>
             <div className="my-5">
               <h3>Our mission</h3>
-              {/* <img src={deepLearning} alt="sensor" min-width="30px" /> */}
               <p>
                 Risus nec feugiat in fermentum posuere urna nec tincidunt
                 praesent. Libero justo laoreet sit amet cursus. Diam
@@ -38,7 +36,6 @@ function About() {
             </div>
             <div className="my-5">
               <h3>Our team</h3>
-              {/* <img src={virtualReality} alt="sensor" min-width="30px" /> */}
               <p>
                 Purus ut faucibus pulvinar elementum integer. Scelerisque
                 viverra mauris in aliquam sem fringilla ut morbi tincidunt.
@@ -53,7 +50,11 @@ function About() {
             </div>
           </div>
           <div>
-            <img src={team} alt="team work three women one man computer" />
+            <img
+              src={team}
+              alt="woman smiling working on computer"
+              title="Photo by @thisisengineering on unsplash.com"
+            />
           </div>
         </div>
       </div>

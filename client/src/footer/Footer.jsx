@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 import {
@@ -45,8 +45,6 @@ function Footer() {
             placeholder="Your email address"
             required
             type="email"
-            // onChange={handleEmailChange}
-            // value={email}
           />
           <button className="bg-sblue text-white rounded-md p-2 my-2">
             SUBSCRIBE

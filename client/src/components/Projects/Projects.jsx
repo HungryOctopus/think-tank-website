@@ -13,12 +13,14 @@ function Projects() {
       <div className="flex flex-col">
         <div className="bg-white">
           <div className="projects-title p-6">
-            <h3>Research on future technologies</h3>
+     
             <h1>Discover</h1>
             <h2>our projects</h2>
           </div>
           <div className="project-icons align-center ">
+
             {/* first row with max 3 icons */}
+
             <div className="icon-row p-3 flex flex-wrap justify-around">
               <div className="flex flex-col align-center m-5">
                 <h4 className="p-5">Virtual reality</h4>
@@ -37,6 +39,7 @@ function Projects() {
             </div>
 
             {/* second row with max 3 icons */}
+            
             <div className="icon-row p-3 mb-8 flex flex-wrap justify-around">
               <div className="flex flex-col align-center m-5">
                 <h4 className="p-5 align-center ">Concept sensors</h4>
