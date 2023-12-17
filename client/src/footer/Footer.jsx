@@ -4,6 +4,7 @@ import './Footer.css';
 import {
   FaTwitter,
   FaLinkedin,
+  FaGithub,
   FaInstagram,
   FaXing,
   FaYoutube
@@ -28,7 +29,12 @@ function Footer() {
         <div className="social-media">
           <h4 className="ml-3">FOLLOW US</h4>
           <div className="social flex flex-row">
+          <a href="https://www.linkedin.com/in/am%C3%A9lie-monnoyer/">
             <FaLinkedin />
+            </a>
+            <a href="https://github.com/HungryOctopus/think-tank-website">
+            <FaGithub />
+            </a>
             <FaTwitter />
             <FaInstagram />
             <FaXing />
